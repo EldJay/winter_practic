@@ -1,0 +1,66 @@
+<div class="swiper">
+    <div class="swiper-wrapper">
+<div class="swiper-slide">
+@@include('../components/_review.html', {
+  "name": "Хаcбик",
+  "text": "Идеальное место для отдыха! Приду еще",
+  "stars": "@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')",
+})
+</div>
+
+<div class="swiper-slide">
+@@include('../components/_review.html', {
+  "name": "Олег",
+  "text": "Неплохое место прям кайфануть по жесткому... Но легально!",
+  "stars": "@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')",
+})
+</div>
+
+<div class="swiper-slide">
+@@include('../components/_review.html', {
+  "name": "Арина",
+  "text": "Все классно! Безумно понравилось, придем еще!",
+  "stars": "@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')",
+})
+</div>
+
+<div class="swiper-slide">
+@@include('../components/_review.html', {
+  "name": "Саша",
+  "text": "Перепутал место с баром, ну а так ничего...",
+  "stars": "@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')",
+})
+</div>
+
+<div class="swiper-slide">
+@@include('../components/_review.html', {
+  "name": "Колян",
+  "text": "Пришел с детьми, ушел с хорошим настроением",
+  "stars": "@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')",
+})
+</div>
+
+<div class="swiper-slide">
+@@include('../components/_review.html', {
+  "name": "Дарья",
+  "text": "Всегда хотела проверить это место на чистоту,не пожалела!",
+  "stars": "@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')@@include('../components/_star.html')",
+})
+</div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 'auto',
+  spaceBetween: 20,
+  grabCursor: true,
+  freeMode: true,             
+  centeredSlides: false,      
+  centeredSlidesBounds: false,
+  slidesOffsetBefore: 350
+});
+</script>

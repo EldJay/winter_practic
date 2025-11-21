@@ -1,0 +1,9 @@
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  width: auto !important; 
+  flex-shrink: 0;  
+  padding-right: 160px;
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/page2.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <title>Document</title>
+</head>
+<body>
+@@include('../components/_header.html')
+
+<section class="about-hero">
+    <div class="about-hero__inner">
+        <h1 class="about-title">О нас — Хроносфера</h1>
+        <p class="about-subtitle">
+            В антикафе «Хроносфера» время — это наша валюта. Здесь вы отдыхаете, творите, общаетесь и живёте моментом.
+        </p>
+    </div>
+</section>
+
+<section class="about-block">
+    <div class="about-block__inner">
+        <div class="about-block__left">
+            <h2>Кто мы?</h2>
+            <p>
+                «Хроносфера» — это пространство, где каждый гость может провести время так, как он хочет:
+                читать, работать, играть, просто расслабляться. Мы создаём атмосферу вдохновения и уюта.
+            </p>
+        </div>
+        <div class="about-block__right">
+            <img src="/assets/images/about1.webp" alt="Интерьер кафе 1" class="about-img">
+        </div>
+    </div>
+</section>
+
+<section class="about-block reverse">
+    <div class="about-block__inner">
+        <div class="about-block__left">
+            <h2>Наша миссия</h2>
+            <p>
+                Мы хотим дать людям пространство, в котором они чувствуют себя свободными от времени,
+                где можно быть собой и развивать свои идеи — без давления и ограничений.
+            </p>
+        </div>
+        <div class="about-block__right">
+            <img src="/assets/images/about2.webp" alt="Интерьер кафе 2" class="about-img">
+        </div>
+    </div>
+</section>
+
+<section class="about-gallery">
+    <h2 class="section-title">Наш интерьер</h2>
+    <div class="about-gallery__row">
+        <img src="/assets/images/about3.webp" alt="Интерьер кафе 3">
+        <img src="/assets/images/about4.webp" alt="Интерьер кафе 4">
+        <img src="/assets/images/about5.webp" alt="Интерьер кафе 5">
+    </div>
+</section>
+
+<section class="about-cta">
+    @@include('../components/_button.html', {
+    "padding-x": "80px",
+    "padding-y": "30px",
+    "border-color": "none",
+    "tittle": "<b>Забронировать</b>",
+    "background-color": "transparent",
+    "font-size": "24px",
+    "background-image": "linear-gradient(90deg, #F432A7 0%, #7A00FF 100%)"
+    })
+</section>
+
+@@include('../components/_footer.html')
+</body>
+</html>

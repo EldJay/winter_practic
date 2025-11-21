@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/page4.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <title>Document</title>
+</head>
+<body>
+@@include('../components/_header.html')
+<section class="booking-hero">
+  <h1 class="booking-title">Бронирование</h1>
+  <p class="booking-subtitle">Подберите удобное время и зону для отдыха</p>
+</section>
+
+<section class="booking-zones">
+  <div class="zones-row">
+
+    <div class="zone-card">
+      <div class="zone-icon">
+        <svg width="100px" height="100px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+          <path fill="var(--ci-primary-color, #000000)" d="M368,168H272V104H448a24.027,24.027,0,0,0,24-24V16H440V72H264a24.027,24.027,0,0,0-24,24v72H144A128.145,128.145,0,0,0,16,296V396.953A91.15,91.15,0,0,0,107.047,488h1.8A90.807,90.807,0,0,0,178.8,455.24l52.7-63.24h48.628l52.666,68.465A91.046,91.046,0,0,0,496,404.953V296A128.145,128.145,0,0,0,368,168Zm96,236.953a59.047,59.047,0,0,1-105.849,36L295.878,360H216.506l-62.294,74.754A58.893,58.893,0,0,1,108.85,456h-1.8A59.113,59.113,0,0,1,48,396.953V296a96.108,96.108,0,0,1,96-96H368a96.108,96.108,0,0,1,96,96Z" class="ci-primary"/>
+          <rect width="32" height="32" x="360" y="248" fill="var(--ci-primary-color, #000000)" class="ci-primary"/>
+          <rect width="32" height="32" x="360" y="328" fill="var(--ci-primary-color, #000000)" class="ci-primary"/>
+          <rect width="32" height="32" x="320" y="288" fill="var(--ci-primary-color, #000000)" class="ci-primary"/>
+          <rect width="32" height="32" x="400" y="288" fill="var(--ci-primary-color, #000000)" class="ci-primary"/>
+          <polygon fill="var(--ci-primary-color, #000000)" points="152 248 120 248 120 288 80 288 80 320 120 320 120 360 152 360 152 320 192 320 192 288 152 288 152 248" class="ci-primary"/>
+        </svg>
+      </div>
+      <h3>Игровая зона</h3>
+      <p>Настольные игры, приставки, уютная атмосфера.</p>
+      @@include('../components/_button.html', {
+      "padding-x": "50px",
+      "padding-y": "18px",
+      "border-color": "none",
+      "tittle": "<b>Выбрать</b>",
+      "background-color": "transparent",
+      "font-size": "18px",
+      "background-image": "linear-gradient(90deg, #F432A7 0%, #7A00FF 100%)"
+      })
+    </div>
+
+    <div class="zone-card">
+      <div class="zone-icon">
+        <svg width="100px" height="100px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill="#000000" fill-rule="evenodd" d="M6.624.334a.75.75 0 00-1.248.832L6.599 3H2.25A2.25 2.25 0 000 5.25v7.5A2.25 2.25 0 002.25 15h11.5A2.25 2.25 0 0016 12.75v-7.5A2.25 2.25 0 0013.75 3H9.401l1.223-1.834A.75.75 0 109.376.334L8 2.398 6.624.334zM7.989 4.5a.798.798 0 00.022 0h5.739a.75.75 0 01.75.75v7.5a.75.75 0 01-.75.75H2.25a.75.75 0 01-.75-.75v-7.5a.75.75 0 01.75-.75h5.739z" clip-rule="evenodd"/></svg>
+
+      </div>
+      <h3>Кино-зона</h3>
+      <p>Комната с проектором и мягкими креслами.</p>
+      @@include('../components/_button.html', {
+      "padding-x": "50px",
+      "padding-y": "18px",
+      "border-color": "none",
+      "tittle": "<b>Выбрать</b>",
+      "background-color": "transparent",
+      "font-size": "18px",
+      "background-image": "linear-gradient(90deg, #F432A7 0%, #7A00FF 100%)"
+      })
+    </div>
+
+    <div class="zone-card">
+      <div class="zone-icon">
+
+
+        <svg version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="100px" height="100px" viewBox="0 0 32 32" xml:space="preserve">
+          <path class="blueprint_een" d="M29,5H3v18h26V5z M28,22H4V6h24V22z M31.01,2H0.99C0.443,2,0,2.443,0,2.99v22.02
+	C0,25.557,0.443,26,0.99,26H11v2H9.99C9.443,28,9,28.443,9,28.99v0.02C9,29.557,9.443,30,9.99,30h12.02
+	c0.547,0,0.99-0.443,0.99-0.99v-0.02c0-0.547-0.443-0.99-0.99-0.99H21v-2h10.01c0.547,0,0.99-0.443,0.99-0.99V2.99
+	C32,2.443,31.557,2,31.01,2z M19,28h-6v-3h6V28z M30,24H2V4h28V24z M21,12H11v-1h10V12z M21,14H11v-1h10V14z M21,16H11v-1h10V16z
+	 M6,8H5V7h1V8z M8,8H7V7h1V8z"/>
+</svg>
+
+      </div>
+      <h3>Рабочая зона</h3>
+      <p>Тишина, чай, Wi-Fi, комфорт для продуктивности.</p>
+      @@include('../components/_button.html', {
+      "padding-x": "50px",
+      "padding-y": "18px",
+      "border-color": "none",
+      "tittle": "<b>Выбрать</b>",
+      "background-color": "transparent",
+      "font-size": "18px",
+      "background-image": "linear-gradient(90deg, #F432A7 0%, #7A00FF 100%)"
+      })
+    </div>
+
+  </div>
+</section>
+
+<section class="booking-steps">
+  <h2>Как проходит бронирование</h2>
+
+  <div class="steps-row">
+
+    <div class="step-card">
+      <div class="step-icon">
+
+        <svg version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="100px" height="100px" viewBox="0 0 32 32" xml:space="preserve">
+<style type="text/css">
+	.puchipuchi_een{fill:#111918;}
+</style>
+          <path class="puchipuchi_een" d="M7,6c0-2.757,2.243-5,5-5s5,2.243,5,5c0,1.627-0.793,3.061-2,3.974V6c0-1.654-1.346-3-3-3
+	S9,4.346,9,6v3.974C7.793,9.061,7,7.627,7,6z M24,13c-1.104,0-2,0.896-2,2v-1c0-1.104-0.896-2-2-2s-2,0.896-2,2v-1
+	c0-1.104-0.896-2-2-2s-2,0.896-2,2V6c0-1.104-0.896-2-2-2s-2,0.896-2,2v10.277C9.705,16.106,9.366,16,9,16c-1.104,0-2,0.896-2,2v3
+	c0,0.454,0.155,0.895,0.438,1.249L11,28h12l2.293-3.293C25.682,24.318,26,23.55,26,23v-8C26,13.896,25.104,13,24,13z M11,29v1
+	c0,0.552,0.447,1,1,1h10c0.553,0,1-0.448,1-1v-1H11z"/>
+</svg>
+      </div>
+      <p>Выберите зону</p>
+    </div>
+
+    <div class="step-card">
+      <div class="step-icon">
+        <svg fill="#000000" width="100px" height="100px" viewBox="-1 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg"><path d="M16.417 9.583A7.917 7.917 0 1 1 8.5 1.666a7.917 7.917 0 0 1 7.917 7.917zM5.85 3.309a6.833 6.833 0 1 0 2.65-.534 6.79 6.79 0 0 0-2.65.534zm5.958 4.678c-.105.113-.22.22-.33.33l-.756.757-1.59 1.59a1.532 1.532 0 0 1-.404.35.56.56 0 0 1-.778-.515c-.004-.431 0-.862 0-1.293V4.28a.554.554 0 0 1 .987-.36.86.86 0 0 1 .122.586V9.17q.155-.157.312-.313l1.223-1.223.387-.387a.647.647 0 0 1 .218-.153.554.554 0 0 1 .61.893z"/></svg>
+      </div>
+      <p>Укажите время</p>
+    </div>
+
+    <div class="step-card">
+      <div class="step-icon">
+        <svg width="100px" height="100px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <g id="layer1">
+            <path d="M 18.837891 3.2832031 L 6.8183594 15.302734 L 1.1621094 9.6464844 L 0.453125 10.353516 L 6.8183594 16.716797 L 19.546875 3.9902344 L 18.837891 3.2832031 z " style="fill:#222222; fill-opacity:1; stroke:none; stroke-width:0px;"/>
+          </g>
+        </svg>
+      </div>
+      <p>Мы подтвердим запись</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="booking-form">
+  <h2>Оставить заявку</h2>
+
+  <form class="form">
+    <label>
+      Имя
+      <input type="text" placeholder="Введите имя">
+    </label>
+
+    <label>
+      Телефон
+      <input type="text" placeholder="+7 ___ ___">
+    </label>
+
+    <label>
+      Комментарий
+      <textarea placeholder="Ваш вопрос"></textarea>
+    </label>
+
+    @@include('../components/_button.html', {
+    "padding-x": "70px",
+    "padding-y": "25px",
+    "border-color": "none",
+    "tittle": "<b>Отправить</b>",
+    "background-color": "transparent",
+    "font-size": "20px",
+    "background-image": "linear-gradient(90deg, #F432A7 0%, #7A00FF 100%)"
+    })
+
+  </form>
+</section>
+@@include('../components/_footer.html')
+</body>
+</html>

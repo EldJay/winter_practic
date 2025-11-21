@@ -1,0 +1,88 @@
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0px;
+  font-family: Montserrat;
+}
+
+.hero-orange {
+  color: #ff8a00;
+}
+
+.hero-purple {
+  background: linear-gradient(90deg, #F432A7 0%, #7A00FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-sub {
+  color: #4B297D;
+  font-size: 28px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.benefits {
+  text-align: center;
+}
+
+.benefits h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  font-family: Montserrat;
+}
+
+.benefits h2 span {
+  color: #000000;
+  font-weight: bold;
+}
+
+.benefit-grid {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px 100px;
+  max-width:1000px;
+  margin: 0 auto;
+}
+
+.rooms {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.rooms h2 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  font-family: Montserrat;
+  padding-bottom: 50px;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.room-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+
+
